@@ -1,0 +1,30 @@
+.list-group-item-success {
+    /* color: #ffffff1c; */
+    /* background-color: #3daf0e; */
+    background: linear-gradient(to bottom, rgba(11,188,1,1) 0%, rgba(13,164,1,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bbc01', endColorstr='#0da401', GradientType=0 );
+    color: white;
+    font-size: 12px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.list-group-item-danger {
+    /* color: #ffffff1c; */
+    /* background-color: #3daf0e; */
+    background: -webkit-linear-gradient(top, #bf3436 0%,#861010 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0bbc01', endColorstr='#0da401', GradientType=0 );
+    color: white;
+    font-size: 12px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1) !important;
+}
+a.list-group-item-success:focus, a.list-group-item-success:hover, button.list-group-item-success:focus, button.list-group-item-success:hover {
+    color:  white;
+    font-size: 12px;
+    background: linear-gradient(to bottom, rgba(11,188,1,1) 0%, rgb(72, 236, 61) 100%);
+}
+
+a.list-group-item-danger:focus, a.list-group-item-danger:hover, button.list-group-item-danger:focus, button.list-group-item-danger:hover {
+    color:  white;
+    font-size: 12px;
+    background: -webkit-linear-gradient(top, #bf3436 0%,#e92b2b 100%);
+}
